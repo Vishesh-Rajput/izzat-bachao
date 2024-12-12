@@ -1,0 +1,51 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std ;
+int aao_dekhe_kisme_kita_dum(int a,int b , int c)
+{
+   switch(c) {
+  case 1:
+  cout<<"bhai-bhai Aura ----> ";
+  return a+b;
+    // code block
+    break;
+  case 2:
+    cout<<"Tanuj hi jetaga na bhai Aura ----> ";
+    return a-b;
+    // code block
+    break;
+  case 3:
+    cout<<"bhaukal macha denege Aura ----> ";
+    return a*b;
+    // code block
+    break;
+  case 4:
+    cout<<"AB iska to pata hi hai  Aura ----> ";
+    if(b == 0){ cout<<"dum hi nai hai "<<endl;return -999;}
+   else return a/b;
+    // code block
+    break;
+  default: cout<<"ayien baigain !!"<<endl;
+  return -99;
+    // code block
+}
+}
+int main() {
+    int tanuj  , salendra  , hehe;
+    // Write C++ code here
+    cout<<"enter Tanuj points"<<endl;
+    cin>>tanuj;
+    cout<<"Enter Salendra points "<<endl;
+    cin>>salendra;
+        cout<<"kya krna hai? "<<endl<<" 1(+) dosti"<<endl<<"2(-)ladai" <<endl <<"3(*)backloli"<<endl<<"4(/)arr yaa par "<<endl ;
+        
+        cin>>hehe;
+        cout<<"Aura ---->"<<aao_dekhe_kisme_kita_dum(tanuj,salendra,hehe)<<endl;
+        
+    // std::cout << "Try programiz.pro";
+/*
+ye do line shagun ki 51 k lie 
+
+*/
+    return 0;
+}
